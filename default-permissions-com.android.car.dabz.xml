@@ -17,8 +17,18 @@
 -->
 
 <exceptions>
-    <exception package="com.android.car.dabz">
-	  <!-- This permission is required to allow the radio to be muted. -->
+    <exception package="ccom.zoulou.dab">
+	  <permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    	  <permission android:maxSdkVersion="29" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    	  <permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    	  <permission android:name="android.permission.INTERNET"/>
+    	  <permission android:name="android.permission.WAKE_LOCK"/>
+    	  <permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    	  <permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    	  <permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    	  <permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    	  <permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	    <!-- This permission is required to allow the radio to be muted. -->
 	  <permission name="android.car.permission.CAR_CONTROL_AUDIO_SETTINGS" fixed="false"/>
 	  <permission name="android.car.permission.CAR_CONTROL_AUDIO_VOLUME" fixed="false"/>
 	  <permission name="android.car.permission.CAR_RADIO" fixed="false"/>
