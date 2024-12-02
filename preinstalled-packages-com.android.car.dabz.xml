@@ -18,7 +18,7 @@
      Documentation at frameworks/base/data/etc/preinstalled-packages-platform.xml
 -->
 <config>
-    <install-in-user-type package="com.android.car.dabz">
+    <install-in-user-type package="com.zoulou.dab">
         <install-in user-type="FULL" />
     </install-in-user-type>
 </config>
